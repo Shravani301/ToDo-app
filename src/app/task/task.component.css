@@ -1,0 +1,31 @@
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.task-item .task-text {
+  flex-grow: 1; 
+  margin-right: 10px; 
+  font-size: 18px;
+}
+
+.task-item button {
+  padding: 6px 10px;
+  border: none;
+  background-color: #dc3545;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px; 
+}
+
+.task-item button:hover {
+  background-color: #c82333;
+}
